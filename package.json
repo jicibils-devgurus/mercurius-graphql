@@ -1,0 +1,26 @@
+{
+  "name": "mercurius-graphql",
+  "version": "1.0.0",
+  "description": "Mercurius is a GraphQL adapter for Fastify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon -e js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jicibils-devgurus/mercurius-graphql.git"
+  },
+  "author": "Juan Cibils",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jicibils-devgurus/mercurius-graphql/issues"
+  },
+  "homepage": "https://github.com/jicibils-devgurus/mercurius-graphql#readme",
+  "dependencies": {
+    "fastify": "^3.20.2",
+    "mercurius": "^8.1.3",
+    "nodemon": "^2.0.12"
+  }
+}
